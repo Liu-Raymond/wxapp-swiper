@@ -4,7 +4,7 @@ Component({
    * 组件的属性列表
    */
   properties: {
-    imgUrls: Array,
+    imgUrls: Array, //图片数组
   },
 
   /**

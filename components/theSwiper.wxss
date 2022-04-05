@@ -10,19 +10,23 @@ page{
 .swiper-item{
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   overflow: unset;
-  width: 550rpx;
-  height: 450rpx;
+  /* width: 550rpx;
+  height: 450rpx; */
+  width: rpx !important;
+  height: 424rpx !important;
   padding-top: 70rpx;
   padding-bottom: 20rpx;
   box-sizing: border-box;
 }
 
 .slide-image{
-  height: 300rpx;
-  width: 450rpx;
+  /* height: 300rpx;
+  width: 450rpx; */
+  height: 212rpx;
+  width: 250rpx;
   border-radius: 10rpx;
   margin: 0rpx 50rpx ;
   z-index: 1;
